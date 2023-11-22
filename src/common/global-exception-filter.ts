@@ -45,21 +45,11 @@ export class GlobalExceptionFilter implements ExceptionFilter {
 
     if (exception instanceof HttpException) {
       const statusCode = exception.getStatus();
-      return response
-        .status(statusCode)
-        .json(
-          ResponseHandler.error(exception.name, exception.message, statusCode),
-        );
+      return response.status(statusCode).json(ResponseHandler.error(exception.name, exception.message, statusCode));
     }
 
     return response
       .status(HttpStatus.BAD_REQUEST)
-      .json(
-        ResponseHandler.error(
-          exception.name,
-          exception.message,
-          HttpStatus.BAD_REQUEST,
-        ),
-      );
+      .json(ResponseHandler.error(exception.name, exception.message, HttpStatus.BAD_REQUEST));
   }
 }
