@@ -69,7 +69,7 @@ module.exports = {
         maxEOF: 1,
       },
     ],
-    'no-console': 'error',
+    // 'no-console': 'error',
     'no-mixed-operators': 'error',
     'keyword-spacing': 'error',
     // 'multiline-ternary': ['error', 'never'],
