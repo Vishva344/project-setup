@@ -1,0 +1,33 @@
+{
+  "prettier.tabWidth": 4,
+  "prettier.printWidth": 120,
+  "prettier.endOfLine": "auto",
+  "prettier.semi": true,
+  "editor.tabSize": 4,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "peacock.color": "#008080",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#f5f5f5", // Light Gray
+    "activityBar.activeBorder": "#cccccc", // Lighter Gray
+    "activityBar.foreground": "#000000", // Black
+    "activityBar.inactiveForeground": "#00000099", // Semi-transparent black
+    "activityBarBadge.background": "#666666", // Gray
+    "activityBarBadge.foreground": "#ffffff", // White
+    "titleBar.activeBackground": "#999999", // Gray
+    "titleBar.inactiveBackground": "#f5f5f5", // Very light Gray with transparency
+    "titleBar.activeForeground": "#000000", // Black
+    "titleBar.inactiveForeground": "#00000099", // Semi-transparent black
+    "statusBar.background": "#cccccc", // Light Gray
+    "statusBarItem.hoverBackground": "#999999", // Gray
+    "statusBar.foreground": "#000000", // Black
+    "activityBar.activeBackground": "#b3b3b3", // Gray
+    "commandCenter.border": "#00000099", // Semi-transparent black
+    "sash.hoverBorder": "#999999", // Gray
+    "statusBarItem.remoteBackground": "#8c8c8c", // Lighter Gray
+    "statusBarItem.remoteForeground": "#ffffff" // White
+  }
+}
