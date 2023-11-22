@@ -1,7 +1,7 @@
 import { Controller } from '@nestjs/common';
-import { AuthenticationService } from './auth.service';
+import { AuthService } from './auth.service';
 
 @Controller('authentication')
-export class AuthenticationController {
-  constructor(private readonly authenticationService: AuthenticationService) {}
+export class AuthController {
+  constructor(private readonly authenticationService: AuthService) {}
 }
